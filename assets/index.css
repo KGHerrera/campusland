@@ -1,0 +1,66 @@
+#header {
+    background-color: #272B5F !important;
+}
+
+body {
+    background-color: #dddde5;
+
+    overflow-x: hidden;
+}
+
+#ponentes p {
+    color: #242747;
+}
+
+#footer {
+    background-color: #3D4175;
+}
+
+#lugarFecha img {
+    max-width: 100%;
+}
+
+#lugarFecha {
+    background-color: #b7b7cd;
+}
+
+#inscribe {
+    background-color: #b7b7cd;
+}
+
+footer a,
+p {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#main .carousel-item img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: brightness(0.3);
+}
+
+#carrusel .overlay {
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 1rem;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    /* color of the tracking area */
+    background-color: #dcdefc;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #3b3f69;
+}
